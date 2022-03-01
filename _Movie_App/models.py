@@ -7,6 +7,7 @@ def get_default_profile_image():
 def get_profile_image_filepath(self, filename):
     return f'images/movies/{self.id}.jpeg'
 
+
 class MovieModel(models.Model):
     name = models.CharField(max_length=100)
     studio = models.CharField(max_length=100)

@@ -3,4 +3,4 @@ db.sqlite3
 **/*__init__.py
 env
 **/migrations
-static\media\images\movies
+static/media/images/**

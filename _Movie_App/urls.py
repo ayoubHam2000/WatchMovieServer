@@ -7,5 +7,5 @@ from .views import (
 app_name = "_Movie_App"
 
 urlpatterns = [
-    path('', test, name = 'test'),
+    path('user', test, name = 'test'),
 ]
